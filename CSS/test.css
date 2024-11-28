@@ -1,0 +1,514 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+    text-align: center;
+    height: 4000px;
+    text-transform: capitalize;
+}
+
+.container {
+  flex: 1;
+}
+
+
+.center{
+   width: 50%;
+   margin: 0 auto;
+  display: block;
+}
+.p1{
+   height: 200px;
+   width : 200px;
+   background-color:rgb(117, 185, 236);
+   margin-right: 10px;
+   float: left;
+   border-radius: 10px;
+    border: solid;
+  display:inline;
+ 
+}
+.p2{
+    height: 200px;
+    width : 200px;
+    background-color: rgb(45, 133, 196);
+    margin-right: 10px;
+    border-radius: 10px;
+    border: solid;
+    float: left;
+    
+ }
+ .p3{
+    height: 200px;
+    width : 200px;
+    background-color: blue;
+    border-radius: 10px;
+    border: solid;
+    float: left;
+  
+ }
+ .p4{
+    height: 5px;
+      margin: auto;
+      background-color: black;
+      width: 180px;
+     
+      margin-bottom: 50px;   
+ }
+
+ .logo li{
+   display: inline;
+   margin-right: 50px;
+   margin-top: 100px;
+ opacity: 0.8;
+ font-size: large; 
+ color: #fff; 
+ }
+ .logo{
+   display: inline-block;
+   
+ }
+ .logo li:hover{
+  cursor:pointer;
+ }
+ input{
+  border-radius: 20px;
+  background-color: #fff;
+  padding-left: 131px;
+    padding-right: 120px;
+    margin-right: -400px;
+ }
+ .fi{
+ 
+  
+  font-size: small;
+ }
+ .inside{
+   position: fixed;
+   width: 100%;
+   height: 35px;
+   background-color: brown;
+  
+ }
+ .p1:hover{
+   background-image: url('../images/M2643_102_V2_BASELINE_MOD1_FRONT.jfif');
+   
+ }
+ .p2:hover{
+ 
+   background-image: url('../images/M1588_M68_V2_Q124_MOD1_FRONT.jfif'); 
+   
+ }
+
+ .center:hover .p1{
+   display:block;
+ }
+ .p3:hover{
+  background-image: url('../images/M8652_X18_V2_Q324_MOD1_FRONT.jfif');
+  
+ }
+ .p3:hover ,.p2:hover ,.p1:hover{
+   background-size: cover ;
+   background-repeat: no-repeat;
+ }
+
+.img{
+  height: 28px;
+  width: 40px;
+  margin-left: -300px;
+  margin-right: 150px;
+}
+
+
+
+.socials {
+  list-style-type: none;
+  padding: 0;
+}
+
+.socials li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.socials a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.home{
+  color: #fff;
+   font-size: large;
+}
+.background-img{
+  background-image: url("../images/OI.jfif");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.words {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  font-family:Arial, Helvetica, sans-serif;
+ 
+}
+.words-clothes{
+ 
+  margin-top: 15px;
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+ 
+   
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.btn1{
+  background-color: rgb(2, 6, 85);
+  color: #fff;
+  
+}
+.btn-3{
+  margin-top: 100px;
+}
+.offers{
+  margin-top: 500px;
+}
+.offers li{
+  text-align: left;
+  padding-top: 30px;
+  list-style: none;
+  overflow: hidden;
+  margin-right: 200px;
+}
+.offers img{
+  height :400px;
+  width :400px;
+  float: right;
+  margin-right: -300px;
+}
+.choose{
+  margin :20px;
+}
+.ul{
+  display: block;
+}
+.icons_under_img li{
+  display: inline;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  margin-bottom: -100px;
+}
+
+.other-containers{
+  height: 200px;
+    width : 200px;
+    background-color: rgb(206, 230, 215);
+    margin-right:  10px;
+    margin-bottom: 30px;
+    border: 2px groove;
+    float: left;
+   
+}
+.tags{
+  float: left;
+  margin-top: 40px;
+  font-size: 40px;
+  margin-left: 20px;
+  
+}
+.first-container h3 ,p{
+  text-align: center;
+  margin-top: 8px;
+  
+}
+.other-containers p{
+  margin-top: 10px;
+}
+
+.other-containers{
+  position: relative; /* Ensure the ::after pseudo-element is positioned relative to .hovered */
+}
+
+.other-containers::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background-color: #333;
+  z-index: 1; /* Ensure it's on top of the content */
+}
+
+.other-containers:hover::after {
+  width: 100%;
+  height: 100%;
+ transition: 1s;
+ opacity: 0.5;
+}
+.pr{
+   position: relative;
+  text-align: center;
+  float: left;
+  border: 1px ridge black;
+height: 300px;
+width: 30%;
+margin-right: 15px;
+
+
+}
+.d{
+  position: absolute;
+  margin: 20px -26px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+.circle{
+  
+  border: solid 2px rgb(104, 104, 226);
+  width: 50%;
+  height: 20%;
+  border-radius: 40%;
+  text-align: center;
+   padding-top: 10px;
+  margin :auto;
+  margin-top: 50px;
+
+  
+}
+
+.dollar{
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.letters-pricing{
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.btn-2{
+  border: solid 1px;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+   color: #000;
+  background-color: #58a189;
+  
+}
+
+.pr::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  transition: 2s;
+
+}
+.pr:hover::after{
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+  opacity: 0.2;
+}
+.IB{
+  display: inline;
+  position: relative;
+  width: 100%;
+}
+.img-behind{
+  background-image: url('../images/portrait-cheerful-woman-wears-sport-fashion-happy-sporty-female-smiling-studio_90099-10348.avif');
+  height: 60vh;
+   width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 400px;
+  top: 0;
+  left: 0;
+  position:relative;
+ 
+}
+.icons{
+  display: inline;
+  float: left;
+  width: 20px;
+  
+ margin: 150px;
+}
+.icons span{
+  line-height: 25px;
+
+  color: #01152b;
+}
+.i{
+  font-size: 50px;
+  color: #58a189;
+}
+.UV{
+  visibility: hidden;
+}
+h3{
+ font-size: 20px;
+
+}
+.our-team{
+  display: inline;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.team-content {
+  overflow: auto;
+}
+.team-item {
+  float: left;
+  background-color: rgb(187, 187, 187);
+  width: 25%;
+  padding: 14px  18px;
+  position: relative;
+}
+.s{
+  margin: 0px  5%;
+}
+.team-img {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+.team-img  img {
+  width: 100%;
+  width: 180;
+  height: 180;
+  
+}
+
+.team-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+   visibility: hidden;
+}
+.team-overlay a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(8, 63, 95);
+  color: #fff;
+  font-size: 23px ;
+  margin-left: auto ;
+}
+.team-overlay  a  i {
+  line-height: 40px ;
+}
+.team-info-title {
+  padding: 12px  0px;
+  color: rgb(58, 58, 58);
+}
+.team-info-sp1 { 
+  color: grey;
+}
+.team-item:hover  .team-info-title {
+  color: #002864;
+}
+.team-item:hover  .team-info-sp1 {
+  color: rgb(3, 0, 14);
+}
+.team-item:hover .team-overlay{
+  top: 0;
+  visibility: visible;
+}
+.team-item::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: black;
+}
+.team-item:hover::after{
+  opacity: 0.5;
+  transition: 2s;
+  width: 100%;
+  height: 100%;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.P-2{
+  background-image: url("../images/positive-woman-has-curly-bushy-hair-wears-casual-striped-jumper-pink-windbreaker-carries-fabric-bag-looks-away-glad-hear-good-news-isolated-purple-background-blank-space-your-promo_273609-62529.avif");
+}
+.img-behind img{
+border-radius: 50%;
+float: inline-start;
+margin: 50px ;
+margin-left: 95px;
+}
+.P-2 span {
+  float: left;
+  margin-top: 100px;
+  font-size: 30px;
+ line-height: 50px;
+ margin-right: 50px;
+
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons .icon {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  color: #00aced;
+}
+
+
